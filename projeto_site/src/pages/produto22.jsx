@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function produto22() {
+function Produto22() {
   return (
     <div>
       <h1>Bem-vindo ao meu site</h1>
@@ -10,4 +10,4 @@ function produto22() {
   );
 }
 
-export default produto22;
+export default Produto22;

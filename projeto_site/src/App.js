@@ -1,94 +1,93 @@
-import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import home from "./pages/home";
-import catalogo from "./pages/catalogo";
-import devolucao from "./pages/devolucao";
-import elements from "./pages/elements";
-import fale from "./pages/fale";
-import instrucoes from "./pages/instrucoes";
-import localizacao from "./pages/localizacao";
-import pagamento from "./pages/pagamento";
-import parceiros from "./pages/parceiros";
-import produto1 from "./pages/produto1";
-import produto2 from "./pages/produto2";
-import produto3 from "./pages/produto3";
-import produto4 from "./pages/produto4";
-import produto5 from "./pages/produto5";
-import produto6 from "./pages/produto6";
-import produto7 from "./pages/produto7";
-import produto8 from "./pages/produto8";
-import produto9 from "./pages/produto9";
-import produto10 from "./pages/produto10";
-import produto11 from "./pages/produto11";
-import produto12 from "./pages/produto12";
-import produto13 from "./pages/produto13";
-import produto14 from "./pages/produto14";
-import produto15 from "./pages/produto15";
-import produto16 from "./pages/produto16";
-import produto17 from "./pages/produto17";
-import produto18 from "./pages/produto18";
-import produto19 from "./pages/produto19";
-import produto20 from "./pages/produto20";
-import produto21 from "./pages/produto21";
-import produto22 from "./pages/produto22";
-import produto23 from "./pages/produto23";
-import produto24 from "./pages/produto24";
-import produto25 from "./pages/produto25";
-import produto26 from "./pages/produto26";
-import produto27 from "./pages/produto27";
-import produto28 from "./pages/produto28";
-import produto29 from "./pages/produto29";
-import produto30 from "./pages/produto30";
+
+import Home from "./pages/Home";
+import Catalogo from "./pages/Catalogo";
+import Devolucao from "./pages/Devolucao";
+import Elements from "./pages/Elements";
+import Fale from "./pages/Fale";
+import Instrucoes from "./pages/Instrucoes";
+import Localizacao from "./pages/Localizacao";
+import Pagamento from "./pages/Pagamento";
+import Parceiros from "./pages/Parceiros";
+import Produto1 from "./pages/Produto1";
+import Produto2 from "./pages/Produto2";
+import Produto3 from "./pages/Produto3";
+import Produto4 from "./pages/Produto4";
+import Produto5 from "./pages/Produto5";
+import Produto6 from "./pages/Produto6";
+import Produto7 from "./pages/Produto7";
+import Produto8 from "./pages/Produto8";
+import Produto9 from "./pages/produto9";
+import Produto10 from "./pages/Produto10";
+import Produto11 from "./pages/Produto11";
+import Produto12 from "./pages/Produto12";
+import Produto13 from "./pages/Produto13";
+import Produto14 from "./pages/Produto14";
+import Produto15 from "./pages/Produto15";
+import Produto16 from "./pages/Produto16";
+import Produto17 from "./pages/Produto17";
+import Produto18 from "./pages/Produto18";
+import Produto19 from "./pages/Produto19";
+import Produto20 from "./pages/Produto20";
+import Produto21 from "./pages/Produto21";
+import Produto22 from "./pages/Produto22";
+import Produto23 from "./pages/Produto23";
+import Produto24 from "./pages/Produto24";
+import Produto25 from "./pages/Produto25";
+import Produto26 from "./pages/Produto26";
+import Produto27 from "./pages/Produto27";
+import Produto28 from "./pages/Produto28";
+import Produto29 from "./pages/Produto29";
+import Produto30 from "./pages/Produto30";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<home />} />
-        <Route path="/catalogo" element={<catalogo />} />
-        <Route path="/devolucao" element={<devolucao />} />
-        <Route path="/elements" element={<elements />} />
-        <Route path="/fale" element={<fale />} />
-        <Route path="/instrucoes" element={<instrucoes />} />
-        <Route path="/localizacao" element={<localizacao />} />
-        <Route path="/pagamento" element={<pagamento />} />
-        <Route path="/parceiros" element={<parceiros />} />
-        <Route path="/p1" element={<produto1 />} />
-        <Route path="/p2" element={<produto2 />} />
-        <Route path="/p3" element={<produto3 />} />
-        <Route path="/p4" element={<produto4 />} />
-        <Route path="/p5" element={<produto5 />} />
-        <Route path="/p6" element={<produto6 />} />
-        <Route path="/p7" element={<produto7 />} />
-        <Route path="/p8" element={<produto8 />} />
-        <Route path="/p9" element={<produto9 />} />
-        <Route path="/p10" element={<produto10 />} />
-        <Route path="/p11" element={<produto11 />} />
-        <Route path="/p12" element={<produto12 />} />
-        <Route path="/p13" element={<produto13 />} />
-        <Route path="/p14" element={<produto14 />} />
-        <Route path="/p15" element={<produto15 />} />
-        <Route path="/p16" element={<produto16 />} />
-        <Route path="/p17" element={<produto17 />} />
-        <Route path="/p18" element={<produto18 />} />
-        <Route path="/p19" element={<produto19 />} />
-        <Route path="/p20" element={<produto20 />} />
-        <Route path="/p21" element={<produto21 />} />
-        <Route path="/p22" element={<produto22 />} />
-        <Route path="/p23" element={<produto23 />} />
-        <Route path="/p24" element={<produto24 />} />
-        <Route path="/p25" element={<produto25 />} />
-        <Route path="/p26" element={<produto26 />} />
-        <Route path="/p27" element={<produto27 />} />
-        <Route path="/p28" element={<produto28 />} />
-        <Route path="/p29" element={<produto29 />} />
-        <Route path="/p30" element={<produto30 />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/catalogo" element={<Catalogo />} />
+        <Route path="/devolucao" element={<Devolucao />} />
+        <Route path="/elements" element={<Elements />} />
+        <Route path="/fale" element={<Fale />} />
+        <Route path="/instrucoes" element={<Instrucoes />} />
+        <Route path="/localizacao" element={<Localizacao />} />
+        <Route path="/pagamento" element={<Pagamento />} />
+        <Route path="/parceiros" element={<Parceiros />} />
+        <Route path="/p1" element={<Produto1 />} />
+        <Route path="/p2" element={<Produto2 />} />
+        <Route path="/p3" element={<Produto3 />} />
+        <Route path="/p4" element={<Produto4 />} />
+        <Route path="/p5" element={<Produto5 />} />
+        <Route path="/p6" element={<Produto6 />} />
+        <Route path="/p7" element={<Produto7 />} />
+        <Route path="/p8" element={<Produto8 />} />
+        <Route path="/p9" element={<Produto9 />} />
+        <Route path="/p10" element={<Produto10 />} />
+        <Route path="/p11" element={<Produto11 />} />
+        <Route path="/p12" element={<Produto12 />} />
+        <Route path="/p13" element={<Produto13 />} />
+        <Route path="/p14" element={<Produto14 />} />
+        <Route path="/p15" element={<Produto15 />} />
+        <Route path="/p16" element={<Produto16 />} />
+        <Route path="/p17" element={<Produto17 />} />
+        <Route path="/p18" element={<Produto18 />} />
+        <Route path="/p19" element={<Produto19 />} />
+        <Route path="/p20" element={<Produto20 />} />
+        <Route path="/p21" element={<Produto21 />} />
+        <Route path="/p22" element={<Produto22 />} />
+        <Route path="/p23" element={<Produto23 />} />
+        <Route path="/p24" element={<Produto24 />} />
+        <Route path="/p25" element={<Produto25 />} />
+        <Route path="/p26" element={<Produto26 />} />
+        <Route path="/p27" element={<Produto27 />} />
+        <Route path="/p28" element={<Produto28 />} />
+        <Route path="/p29" element={<Produto29 />} />
+        <Route path="/p30" element={<Produto30 />} />
       </Routes>
     </Router>
   );
 }
-
 
 export default App;

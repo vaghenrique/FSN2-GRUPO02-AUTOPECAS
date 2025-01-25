@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function devolucao() {
+function Devolucao() {
   return (
     <div>
       <h1>Bem-vindo ao meu site</h1>
@@ -10,4 +10,4 @@ function devolucao() {
   );
 }
 
-export default devolucao;
+export default Devolucao;

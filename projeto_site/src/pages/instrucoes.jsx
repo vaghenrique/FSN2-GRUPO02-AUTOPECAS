@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function instrucoes() {
+function Instrucoes() {
   return (
     <div>
       <h1>Bem-vindo ao meu site</h1>
@@ -10,4 +10,4 @@ function instrucoes() {
   );
 }
 
-export default instrucoes;
+export default Instrucoes;
