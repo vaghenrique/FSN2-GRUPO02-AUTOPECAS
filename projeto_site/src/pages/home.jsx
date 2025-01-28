@@ -34,7 +34,7 @@ function Home() {
                 </header>
                 <p>Fundada em 2024, a AutoPrime surgiu com o objetivo de oferecer autopeças de qualidade, preços justos e entregas rápidas...</p>
                 <ul className="actions">
-                  <li><Link to="/localizacao" className="button big">Clique aqui</Link></li>
+                  <li><Gestures><Link to="/localizacao" className="button big">Clique aqui</Link></Gestures></li>
                 </ul>
               </div>
               <span className="image object">
@@ -87,14 +87,14 @@ function Home() {
                   <Link to="/p20" className="image"><img src="images/amortecedor.jpeg" alt="" /></Link>
                   <h3>Amortecedor</h3>
                   <ul className="actions">
-                    <li><Link to="/p20" className="button">Clique Aqui</Link></li>
+                    <li><Gestures><Link to="/p20" className="button">Clique Aqui</Link></Gestures></li>
                   </ul>
                 </article>
                 <article>
                   <Link to="/p1" className="image"><img src="images/bico_injetor.jpg" alt="" /></Link>
                   <h3>Bico Injetor</h3>
                   <ul className="actions">
-                    <li><Link to="/p1" className="button">Clique Aqui</Link></li>
+                    <li><Gestures><Link to="/p1" className="button">Clique Aqui</Link></Gestures></li>
                   </ul>
                 </article>
               </div>
@@ -137,7 +137,7 @@ function Home() {
                 </article>
               </div>
               <ul className="actions">
-                <li><Link to="/catalogo" className="button">More</Link></li>
+                <li><Gestures><Link to="/catalogo" className="button">More</Link></Gestures></li>
               </ul>
             </section>
 

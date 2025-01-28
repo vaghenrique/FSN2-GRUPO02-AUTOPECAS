@@ -106,7 +106,7 @@ function Catalogo() {
                 </article>
               </div>
               <ul className="actions">
-                <li><Link to="/catalogo" className="button">More</Link></li>
+                <li><Gestures><Link to="/catalogo" className="button">More</Link></Gestures></li>
               </ul>
             </section>
 

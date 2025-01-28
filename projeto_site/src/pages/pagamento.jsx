@@ -30,9 +30,6 @@ function Pagamento() {
                 </header>
 
                 <section>
-
-                  <span class="image main"><img src="images/pic11.jpg" alt="" /></span>
-
                   <p>Prezado cliente, na compra de qualquer um de nossos produtos, você tem o direito de escolher entre as diferentes formas de pagamento contidas nessa página.</p>
                   
                   <hr class="major" />
@@ -71,33 +68,29 @@ function Pagamento() {
                 </nav>
 
                 <section>
-                  <header class="major">
-                    <h2>Produtos</h2>
-                  </header>
-                  <div class="mini-posts">
-                    <article>
-                      <a href="produto2.html" class="image"><img src="images/pic07.jpg" alt="" /></a>
-                      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-                    </article>
-                    <article>
-                      <a href="produto10.html" class="image"><img src="images/pic08.jpg" alt="" /></a>
-                      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-                    </article>
-                    <article>
-                      <a href="produto19.html" class="image"><img src="images/pic09.jpg" alt="" /></a>
-                      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-                    </article>
-                  </div>
-                  <ul class="actions">
-                    <li><a href="catalogo.html" class="button">More</a></li>
-                  </ul>
+                 <header className="major">
+                                 <h2>Produtos</h2>
+                               </header>
+                               <div className="mini-posts">
+                                 <article>
+                                   <Link to="/p2" className="image"><img src="images/pic01-4.png" alt="" /></Link>
+                                 </article>
+                                 <article>
+                                   <Link to="/p10" className="image"><img src="images/pic01-Recuperado1.png" alt="" /></Link>
+                                 </article>
+                                 <article>
+                                   <Link to="/p19" className="image"><img src="images/radiador.jpeg" alt="" /></Link>
+                                </article>
+                               </div>
+                               <ul className="actions">
+                                 <li><Gestures><Link to="/catalogo" className="button">More</Link></Gestures></li>
+                               </ul>
                 </section>
 
                 <section>
                   <header class="major">
-                    <h2>Get in touch</h2>
+                    <h2>Contato</h2>
                   </header>
-                  <p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
                   <ul class="contact">
                     <li class="icon solid fa-envelope"><a href="mailto:emailalgum@gmail.com">emailalgum@gmail.com</a></li>
                     <li class="icon solid fa-phone">(012) 345-6789</li>
@@ -107,7 +100,7 @@ function Pagamento() {
                 </section>
 
                 <footer id="footer">
-                  <p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+                  <p class="copyright">&copy; AutoPrime. Todos os direitos reservados.</p>
                 </footer>
 
             </div>
