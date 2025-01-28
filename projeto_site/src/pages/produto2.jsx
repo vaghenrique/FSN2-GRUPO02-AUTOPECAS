@@ -57,12 +57,12 @@ function Produto2() {
               <li><Link to="/">Tela Inicial</Link></li>
               <li><Link to="/catalogo">Catálogo</Link></li>
               <li><Link to="/localizacao">Localização</Link></li>
-              <li><Link to="/parceiros">Parceiros</Link></li>
-              <li><Link to="/devolucao">Devolução</Link></li>
-              <li><Link to="/redesociais">Rede Sociais</Link></li>
-              <li><Link to="/instrucoes">Instruções</Link></li>
+              
+              
+              
+              
               <li><Link to="/pagamento">Formas de Pagamento</Link></li>
-              <li><Link to="/fale">Fale Comigo</Link></li>
+              
             </ul>
           </nav>
         </div>
