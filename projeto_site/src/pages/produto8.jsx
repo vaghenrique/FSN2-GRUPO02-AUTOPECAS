@@ -12,6 +12,7 @@ function Produto8() {
               <li>
                 <a href="#" className="icon solid fa-shopping-cart">
                   <span className="label">Carrinho</span>
+                  <span className="cart-status">1</span>
                 </a>
               </li>          
             </ul>

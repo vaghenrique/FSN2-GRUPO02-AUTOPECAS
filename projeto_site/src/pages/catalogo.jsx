@@ -1,21 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import propTypes from "prop-types";
+import Cart from "../components/Cart"
 
-function Catalogo() {
+function Catalogo({ data}) {
+  //DEPOIS AJUSTAR ESSA PARTE DE EXTRAIR OS DADOS DINAMICAMENTE
+  /*const{ title, price} = data;*/
+
   return (
     <div className="is-preload">
       <div id="wrapper">
         <div id="main">
           <div className="inner">
             <header id="header">
+
               <a className="logo"><strong>AutoPrime</strong></a>
               <ul className="icons">
                 <li>
+                  {/*Aqui é o botão*/}
                   <a href="#" className="icon solid fa-shopping-cart">
                     <span className="label">Carrinho</span>
+                    <span className="cart-status">1</span>
                   </a>
                 </li>
-              </ul>
+              </ul>              
             </header>
 
             <section id="banner">
@@ -32,9 +40,11 @@ function Catalogo() {
                   <Link to="/p1" className="image">
                     <img src="images/produto1.jpg" alt="Produto 1" />
                   </Link>
-                  <h3>Produto 1</h3>
+                  <h3>{/*{title}*/}Produto 1</h3>
+                  <h3>{/*{price}*/}R$199</h3>
                   <ul className="actions">
                     <li><Link to="/p1" className="button">Ver Detalhes</Link></li>
+                    <button type="button" className="btn-add-card">+</button>
                   </ul>
                 </article>
                 <article>
@@ -42,23 +52,29 @@ function Catalogo() {
                     <img src="images/produto2.jpg" alt="Produto 2" />
                   </Link>
                   <h3>Produto 2</h3>
+                  <h3>R$199.90</h3>
                   <ul className="actions">
                     <li><Link to="/p2" className="button">Ver Detalhes</Link></li>
+                    <button type="button" className="btn-add-card">+</button>
                   </ul>
                 </article>
-                {Array.from({ length: 25 }, (_, i) => (
-                  <article key={i + 6}>
-                    <Link to={`/p${i + 6}`} className="image">
-                      <img src={`images/produto${i + 6}.jpg`} alt={`Produto ${i + 6}`} />
+                {Array.from({ length: 28 }, (_, i) => (
+                  <article key={i + 3}>
+                    <Link to={`/p${i + 3}`} className="image">
+                      <img src={`images/produto${i + 3}.jpg`} alt={`Produto ${i + 3}`} />
                     </Link>
-                    <h3>Produto {i + 6}</h3>
+                    <h3>Produto {i + 3}</h3>
+                    <h3>R$199.90</h3>
                     <ul className="actions">
-                      <li><Link to={`/p${i + 6}`} className="button">Ver Detalhes</Link></li>
+                      <li><Link to={`/p${i + 3}`} className="button">Ver Detalhes</Link></li>
+                      <button type="button" className="btn-add-card">+</button>
                     </ul>
                   </article>
                 ))}
               </div>
             </section>
+            {/*AQUI ESTÁ O CART*/}
+            <Cart/>
           </div>
         </div>
 
@@ -123,3 +139,7 @@ function Catalogo() {
 }
 
 export default Catalogo;
+
+Catalogo.propTypes = {
+  data: propTypes.shape({}),
+}.isRequired;

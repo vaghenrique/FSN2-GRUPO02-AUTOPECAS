@@ -12,12 +12,14 @@ function Produto1() {
               <li>
                 <a href="#" className="icon solid fa-shopping-cart">
                   <span className="label">Carrinho</span>
+                  <span className="cart-status">1</span>
                 </a>
               </li>          
             </ul>
           </header>
 
           <section>
+            
             <header className="main">
               <h1>Produto Nome</h1>
             </header>
