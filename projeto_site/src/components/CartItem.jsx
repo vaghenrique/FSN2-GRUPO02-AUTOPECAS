@@ -1,4 +1,5 @@
 
+import { BsCartDashFill } from "react-icons/bs";
 import "./CartItem.css";
 
 
@@ -10,7 +11,9 @@ function CartItem({title, price, image}) {
                 <h3 className="cart-item-title">{title}</h3>
                 <h3 className="cart-item-price">{price}</h3>
                 <div className="btn-card-div">
-                <button type="button" className="btn-remove-card">-</button>
+                <button type="button" className="btn-remove-card">
+                   <BsCartDashFill/>
+                    </button>
                 </div>
             </div>
         </section>

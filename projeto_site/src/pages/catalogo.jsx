@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Cart from "../components/Cart";
 import { useCart } from "../components/CartContext";
+import { BsFillCartPlusFill } from "react-icons/bs";
 
 function Catalogo() {
   const { addItemToCart } = useCart();
@@ -52,7 +53,7 @@ function Catalogo() {
                     <h3>{produto.title}</h3>
                     <h3>{produto.price}</h3>
                     <button type="button" onClick={() => handleAddToCart(produto)}>
-                      +
+                    <BsFillCartPlusFill />
                     </button>
                   </article>
                 ))}
