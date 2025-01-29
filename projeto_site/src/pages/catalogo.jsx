@@ -1,11 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import propTypes from "prop-types";
-import Cart from "../components/Cart"
+import Cart from "../components/Cart";
+import { useCart } from "../components/CartContext";
 
-function Catalogo({ data}) {
-  //DEPOIS AJUSTAR ESSA PARTE DE EXTRAIR OS DADOS DINAMICAMENTE
-  /*const{ title, price} = data;*/
+function Catalogo() {
+  const { addItemToCart } = useCart();
+  //PARTE EM QUE ESTARÁ SENDO IMPLEMENTADO O ARRAY PARA RODAR A LISTAGEM DOS 30 PRODUTOS
+  const produtos = Array.from({ length: 30 }, (_, i) => ({
+    id: i + 1,
+    title: `Produto ${i + 1}`,
+    price: `R$${(199 + i).toFixed(2)}`,
+    image: `images/produto${i + 1}.jpg`,
+  }));
+
+  const handleAddToCart = (produto) => {
+    addItemToCart(produto);
+  };
 
   return (
     <div className="is-preload">
@@ -36,39 +46,14 @@ function Catalogo({ data}) {
 
             <section>
               <div className="posts">
-                <article>
-                  <Link to="/p1" className="image">
-                    <img src="images/produto1.jpg" alt="Produto 1" />
-                  </Link>
-                  <h3>{/*{title}*/}Produto 1</h3>
-                  <h3>{/*{price}*/}R$199</h3>
-                  <ul className="actions">
-                    <li><Link to="/p1" className="button">Ver Detalhes</Link></li>
-                    <button type="button" className="btn-add-card">+</button>
-                  </ul>
-                </article>
-                <article>
-                  <Link to="/p2" className="image">
-                    <img src="images/produto2.jpg" alt="Produto 2" />
-                  </Link>
-                  <h3>Produto 2</h3>
-                  <h3>R$199.90</h3>
-                  <ul className="actions">
-                    <li><Link to="/p2" className="button">Ver Detalhes</Link></li>
-                    <button type="button" className="btn-add-card">+</button>
-                  </ul>
-                </article>
-                {Array.from({ length: 28 }, (_, i) => (
-                  <article key={i + 3}>
-                    <Link to={`/p${i + 3}`} className="image">
-                      <img src={`images/produto${i + 3}.jpg`} alt={`Produto ${i + 3}`} />
-                    </Link>
-                    <h3>Produto {i + 3}</h3>
-                    <h3>R$199.90</h3>
-                    <ul className="actions">
-                      <li><Link to={`/p${i + 3}`} className="button">Ver Detalhes</Link></li>
-                      <button type="button" className="btn-add-card">+</button>
-                    </ul>
+                {produtos.map((produto) => (
+                  <article key={produto.id}>
+                    <img src={produto.image} alt={produto.title} />
+                    <h3>{produto.title}</h3>
+                    <h3>{produto.price}</h3>
+                    <button type="button" onClick={() => handleAddToCart(produto)}>
+                      +
+                    </button>
                   </article>
                 ))}
               </div>
@@ -140,6 +125,3 @@ function Catalogo({ data}) {
 
 export default Catalogo;
 
-Catalogo.propTypes = {
-  data: propTypes.shape({}),
-}.isRequired;
