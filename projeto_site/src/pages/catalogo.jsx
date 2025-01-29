@@ -47,14 +47,20 @@ function Catalogo() {
 
             <section>
               <div className="posts">
-                {produtos.map((produto) => (
+                {produtos.map((produto, i) => (
                   <article key={produto.id}>
                     <img src={produto.image} alt={produto.title} />
                     <h3>{produto.title}</h3>
                     <h3>{produto.price}</h3>
+                    <div className="space-buttons">
                     <button type="button" onClick={() => handleAddToCart(produto)}>
                     <BsFillCartPlusFill />
                     </button>
+                    <ul className="actions">
+                      <li><Link to={`/p${i + 1}`} className="button">Ver Detalhes</Link>
+                      </li>
+                    </ul>
+                    </div>
                   </article>
                 ))}
               </div>

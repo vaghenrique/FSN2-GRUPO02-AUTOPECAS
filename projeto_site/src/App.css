@@ -64,3 +64,9 @@
   justify-content: center;
 }
 
+.space-buttons{
+  display: flex;
+  gap: 10px;
+ 
+}
+
