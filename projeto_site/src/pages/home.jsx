@@ -1,14 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import * as motion from "motion/react-client";
+import Gestures from '../components/Gestures';
 
-const Gestures = ({ children }) => {
-  return (
-    <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
-      {children}
-    </motion.div>
-  );
-};
 
 function Home() {
   return (
@@ -44,7 +37,6 @@ function Home() {
 
             <section>
               <header className="major">
-                <h2>Erat lacinia</h2>
               </header>
               <div className="features">
                 <article>

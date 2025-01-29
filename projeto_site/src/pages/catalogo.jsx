@@ -1,14 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import * as motion from "motion/react-client";
-
-const Gestures = ({ children }) => {
-  return (
-    <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
-      {children}
-    </motion.div>
-  );
-};
+import Gestures from '../components/Gestures';
 
 function Catalogo() {
   return (
