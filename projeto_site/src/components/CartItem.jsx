@@ -1,9 +1,11 @@
 
 import { BsCartDashFill } from "react-icons/bs";
 import "./CartItem.css";
+import { useCart } from './CartContext';
 
 
-function CartItem({title, price, image}) {
+function CartItem({id, title, price, image}) {
+    const { removeItemFromCart } = useCart();
     return(
         <section className="cart-item">
             <img src={image} alt= {title} className="cart-item-image"/>
@@ -11,10 +13,13 @@ function CartItem({title, price, image}) {
                 <h3 className="cart-item-title">{title}</h3>
                 <h3 className="cart-item-price">{price}</h3>
                 <div className="btn-card-div">
-                <button type="button" className="btn-remove-card">
-                   <BsCartDashFill/>
+                <button 
+                    type="button" 
+                    className="btn-remove-card" 
+                    onClick={() => removeItemFromCart(id)}>
+                        <BsCartDashFill />
                     </button>
-                </div>
+            </div>
             </div>
         </section>
     );

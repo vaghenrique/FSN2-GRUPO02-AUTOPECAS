@@ -20,7 +20,8 @@ function Cart() {
             ) : (
                 cartItems.map((item, index) => (
                     <CartItem
-                        key={index}
+                        id={item.id}
+                        key={item.id}
                         title={item.title}
                         price={item.price}
                         image={item.image}
