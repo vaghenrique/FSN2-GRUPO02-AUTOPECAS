@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Cart from "../components/Cart";
 import { useCart } from "../components/CartContext";
 import { BsFillCartPlusFill } from "react-icons/bs";
+import Gestures from '../components/Gestures';
+
 
 function Catalogo() {
   const { addItemToCart } = useCart();
@@ -77,15 +79,15 @@ function Catalogo() {
                 <h2>Menu</h2>
               </header>
               <ul>
-                <li><Link to="/">Tela Inicial</Link></li>
-                <li><Link to="/catalogo">Catálogo</Link></li>
-                <li><Link to="/localizacao">Localização</Link></li>
-                <li><Link to="/parceiros">Parceiros</Link></li>
-                <li><Link to="/devolucao">Devolução</Link></li>
-                <li><Link to="/redesociais">Rede Sociais</Link></li>
-                <li><Link to="/instrucoes">Instruções</Link></li>
-                <li><Link to="/pagamento">Formas de Pagamento</Link></li>
-                <li><Link to="/fale">Fale Comigo</Link></li>
+                <li><Gestures><Link to="/">Tela Inicial</Link></Gestures></li>
+                <li><Gestures><Link to="/catalogo">Catálogo</Link></Gestures></li>
+                <li><Gestures><Link to="/localizacao">Localização</Link></Gestures></li>
+                
+                
+                
+                
+                <li><Gestures><Link to="/pagamento">Formas de Pagamento</Link></Gestures></li>
+                
               </ul>
             </nav>
 
@@ -105,7 +107,7 @@ function Catalogo() {
                 </article>
               </div>
               <ul className="actions">
-                <li><Link to="/catalogo" className="button">More</Link></li>
+                <li><Gestures><Link to="/catalogo" className="button">More</Link></Gestures></li>
               </ul>
             </section>
 

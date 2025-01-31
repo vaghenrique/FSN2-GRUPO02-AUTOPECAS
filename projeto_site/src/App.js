@@ -4,13 +4,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Catalogo from "./pages/Catalogo";
-import Devolucao from "./pages/Devolucao";
 import Elements from "./pages/Elements";
-import Fale from "./pages/Fale";
-import Instrucoes from "./pages/Instrucoes";
 import Localizacao from "./pages/Localizacao";
 import Pagamento from "./pages/Pagamento";
-import Parceiros from "./pages/Parceiros";
 import Produto1 from "./pages/Produto1";
 import Produto2 from "./pages/Produto2";
 import Produto3 from "./pages/Produto3";
@@ -48,13 +44,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/catalogo" element={<Catalogo />} />
-        <Route path="/devolucao" element={<Devolucao />} />
         <Route path="/elements" element={<Elements />} />
-        <Route path="/fale" element={<Fale />} />
-        <Route path="/instrucoes" element={<Instrucoes />} />
         <Route path="/localizacao" element={<Localizacao />} />
         <Route path="/pagamento" element={<Pagamento />} />
-        <Route path="/parceiros" element={<Parceiros />} />
         <Route path="/p1" element={<Produto1 />} />
         <Route path="/p2" element={<Produto2 />} />
         <Route path="/p3" element={<Produto3 />} />

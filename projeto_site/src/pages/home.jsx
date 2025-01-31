@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Gestures from '../components/Gestures';
+
 
 function Home() {
   return (
@@ -26,7 +28,7 @@ function Home() {
                 </header>
                 <p>Fundada em 2024, a AutoPrime surgiu com o objetivo de oferecer autopeças de qualidade, preços justos e entregas rápidas...</p>
                 <ul className="actions">
-                  <li><Link to="/localizacao" className="button big">Clique aqui</Link></li>
+                  <li><Gestures><Link to="/localizacao" className="button big">Clique aqui</Link></Gestures></li>
                 </ul>
               </div>
               <span className="image object">
@@ -36,7 +38,6 @@ function Home() {
 
             <section>
               <header className="major">
-                <h2>Erat lacinia</h2>
               </header>
               <div className="features">
                 <article>
@@ -79,14 +80,14 @@ function Home() {
                   <Link to="/p20" className="image"><img src="images/amortecedor.jpeg" alt="" /></Link>
                   <h3>Amortecedor</h3>
                   <ul className="actions">
-                    <li><Link to="/p20" className="button">Clique Aqui</Link></li>
+                    <li><Gestures><Link to="/p20" className="button">Clique Aqui</Link></Gestures></li>
                   </ul>
                 </article>
                 <article>
                   <Link to="/p1" className="image"><img src="images/bico_injetor.jpg" alt="" /></Link>
                   <h3>Bico Injetor</h3>
                   <ul className="actions">
-                    <li><Link to="/p1" className="button">Clique Aqui</Link></li>
+                    <li><Gestures><Link to="/p1" className="button">Clique Aqui</Link></Gestures></li>
                   </ul>
                 </article>
               </div>
@@ -101,15 +102,15 @@ function Home() {
                 <h2>Menu</h2>
               </header>
               <ul>
-                <li><Link to="/">Tela Inicial</Link></li>
-                <li><Link to="/catalogo">Catálogo</Link></li>
-                <li><Link to="/localizacao">Localização</Link></li>
-                <li><Link to="/parceiros">Parceiros</Link></li>
-                <li><Link to="/devolucao">Devolução</Link></li>
-                <li><Link to="/redesociais">Rede Sociais</Link></li>
-                <li><Link to="/instrucoes">Instruções</Link></li>
-                <li><Link to="/pagamento">Formas de Pagamento</Link></li>
-                <li><Link to="/fale">Fale Comigo</Link></li>
+                <li><Gestures><Link to="/">Tela Inicial</Link></Gestures></li>
+                <li><Gestures><Link to="/catalogo">Catálogo</Link></Gestures></li>
+                <li><Gestures><Link to="/localizacao">Localização</Link></Gestures></li>
+                
+                
+                
+                
+                <li><Gestures><Link to="/pagamento">Formas de Pagamento</Link></Gestures></li>
+                
               </ul>
             </nav>
 
@@ -129,7 +130,7 @@ function Home() {
                 </article>
               </div>
               <ul className="actions">
-                <li><Link to="/catalogo" className="button">More</Link></li>
+                <li><Gestures><Link to="/catalogo" className="button">More</Link></Gestures></li>
               </ul>
             </section>
 
