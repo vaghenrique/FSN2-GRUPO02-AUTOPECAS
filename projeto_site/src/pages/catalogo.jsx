@@ -1,22 +1,42 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Cart from "../components/Cart";
+import { useCart } from "../components/CartContext";
+import { BsFillCartPlusFill } from "react-icons/bs";
 import Gestures from '../components/Gestures';
 
+
 function Catalogo() {
+  const { addItemToCart } = useCart();
+  //PARTE EM QUE ESTARÁ SENDO IMPLEMENTADO O ARRAY PARA RODAR A LISTAGEM DOS 30 PRODUTOS
+  const produtos = Array.from({ length: 30 }, (_, i) => ({
+    id: i + 1,
+    title: `Produto ${i + 1}`,
+    price: `R$${(199 + i).toFixed(2)}`,
+    image: `images/produto${i + 1}.jpg`,
+  }));
+
+  const handleAddToCart = (produto) => {
+    addItemToCart(produto);
+  };
+
   return (
     <div className="is-preload">
       <div id="wrapper">
         <div id="main">
           <div className="inner">
             <header id="header">
+
               <a className="logo"><strong>AutoPrime</strong></a>
               <ul className="icons">
                 <li>
+                  {/*Aqui é o botão*/}
                   <a href="#" className="icon solid fa-shopping-cart">
                     <span className="label">Carrinho</span>
+                    <span className="cart-status">1</span>
                   </a>
                 </li>
-              </ul>
+              </ul>              
             </header>
 
             <section id="banner">
@@ -29,37 +49,26 @@ function Catalogo() {
 
             <section>
               <div className="posts">
-                <article>
-                  <Link to="/p1" className="image">
-                    <img src="images/produto1.jpg" alt="Produto 1" />
-                  </Link>
-                  <h3>Produto 1</h3>
-                  <ul className="actions">
-                    <li><Link to="/p1" className="button">Ver Detalhes</Link></li>
-                  </ul>
-                </article>
-                <article>
-                  <Link to="/p2" className="image">
-                    <img src="images/produto2.jpg" alt="Produto 2" />
-                  </Link>
-                  <h3>Produto 2</h3>
-                  <ul className="actions">
-                    <li><Link to="/p2" className="button">Ver Detalhes</Link></li>
-                  </ul>
-                </article>
-                {Array.from({ length: 25 }, (_, i) => (
-                  <article key={i + 6}>
-                    <Link to={`/p${i + 6}`} className="image">
-                      <img src={`images/produto${i + 6}.jpg`} alt={`Produto ${i + 6}`} />
-                    </Link>
-                    <h3>Produto {i + 6}</h3>
+                {produtos.map((produto, i) => (
+                  <article key={produto.id}>
+                    <img src={produto.image} alt={produto.title} />
+                    <h3>{produto.title}</h3>
+                    <h3>{produto.price}</h3>
+                    <div className="space-buttons">
+                    <button type="button" onClick={() => handleAddToCart(produto)}>
+                    <BsFillCartPlusFill />
+                    </button>
                     <ul className="actions">
-                      <li><Link to={`/p${i + 6}`} className="button">Ver Detalhes</Link></li>
+                      <li><Link to={`/p${i + 1}`} className="button">Ver Detalhes</Link>
+                      </li>
                     </ul>
+                    </div>
                   </article>
                 ))}
               </div>
             </section>
+            {/*AQUI ESTÁ O CART*/}
+            <Cart/>
           </div>
         </div>
 
@@ -124,3 +133,4 @@ function Catalogo() {
 }
 
 export default Catalogo;
+
