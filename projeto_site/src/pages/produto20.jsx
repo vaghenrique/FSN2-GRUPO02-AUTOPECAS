@@ -23,7 +23,7 @@ function Produto20() {
               <h1>Produto Nome</h1>
             </header>
 
-            <span className="image main"><img src="images/produto1.jpg" alt="Produto" /></span>
+            <span className="image main"><img src="images/produto1.png" alt="Produto" /></span>
             <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
             <h2>R$ 199,90</h2>
             <button className="button primary">Comprar</button>
@@ -32,15 +32,15 @@ function Produto20() {
             <h2>Produtos Relacionados</h2>
             <div className="mini-posts">
               <article>
-                <Link to="/p21" className="image"><img src="images/produto2.jpg" alt="Produto 2" /></Link>
+                <Link to="/p21" className="image"><img src="images/produto2.png" alt="Produto 2" /></Link>
                 <p>Breve descrição do produto relacionado.</p>
               </article>
               <article>
-                <Link to="/p22" className="image"><img src="images/produto3.jpg" alt="Produto 3" /></Link>
+                <Link to="/p22" className="image"><img src="images/produto3.png" alt="Produto 3" /></Link>
                 <p>Breve descrição do produto relacionado.</p>
               </article>
               <article>
-                <Link to="/p23" className="image"><img src="images/produto4.jpg" alt="Produto 4" /></Link>
+                <Link to="/p23" className="image"><img src="images/produto4.png" alt="Produto 4" /></Link>
                 <p>Breve descrição do produto relacionado.</p>
               </article>
             </div>

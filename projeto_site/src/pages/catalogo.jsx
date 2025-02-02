@@ -13,7 +13,7 @@ function Catalogo() {
     id: i + 1,
     title: `Produto ${i + 1}`,
     price: `R$${(199 + i).toFixed(2)}`,
-    image: `images/produto${i + 1}.jpg`,
+    image: `images/produto${i + 1}.png`,
   }));
 
   const handleAddToCart = (produto) => {
