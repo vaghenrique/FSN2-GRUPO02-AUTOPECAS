@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 import Gestures from '../components/Gestures';
 
+=======
+>>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
 
 function Localizacao() {
   return (
     <div>
+<<<<<<< HEAD
       <div id="wrapper">
 
           <div id="main">
@@ -118,6 +122,10 @@ function Localizacao() {
           </div>
 
         </div>
+=======
+      <h1>Bem-vindo ao meu site</h1>
+      <p>Esta é a página inicial.</p>
+>>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
     </div>
   );
 }

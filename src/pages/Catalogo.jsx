@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 import Cart from "../components/Cart";
 import { useCart } from "../components/CartContext";
 import { BsFillCartPlusFill } from "react-icons/bs";
@@ -128,9 +129,20 @@ function Catalogo() {
           </div>
         </div>
       </div>
+=======
+
+function Catalogo() {
+  return (
+    <div>
+      <h1>Bem-vindo ao meu site</h1>
+      <p>Esta é a página inicial.</p>
+>>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
     </div>
   );
 }
 
 export default Catalogo;
+<<<<<<< HEAD
 
+=======
+>>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e

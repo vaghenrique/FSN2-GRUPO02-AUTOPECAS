@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 
+=======
+import React from "react";
+import { Link } from "react-router-dom";
+>>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
 
 function Parceiros() {
   return (
     <div>
+<<<<<<< HEAD
       <div id="wrapper">
 
           <div id="main">
@@ -116,8 +122,16 @@ function Parceiros() {
           </div>
 
         </div>
+=======
+      <h1>Bem-vindo ao meu site</h1>
+      <p>Esta é a página inicial.</p>
+>>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
     </div>
   );
 }
 
+<<<<<<< HEAD
 
+=======
+export default Parceiros;
+>>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
