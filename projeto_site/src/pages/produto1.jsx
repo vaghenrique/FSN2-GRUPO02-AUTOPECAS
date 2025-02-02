@@ -10,7 +10,7 @@ function Produto1() {
           <a className="logo"><strong>AutoPrime</strong></a>
             <ul className="icons">
               <li>
-                <a href="#" className="icon solid fa-shopping-cart">
+                <a href="#" className="icon solid fa-shopping-cart" >
                   <span className="label">Carrinho</span>
                   <span className="cart-status">1</span>
                 </a>
