@@ -1,5 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
+import Gestures from '../components/Gestures';
+
+=======
+>>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
 
 function Home() {
   return (
@@ -13,6 +18,10 @@ function Home() {
                 <li>
                   <a href="#" className="icon solid fa-shopping-cart">
                     <span className="label">Carrinho</span>
+<<<<<<< HEAD
+                    <span className="cart-status">1</span>
+=======
+>>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
                   </a>
                 </li>
               </ul>
@@ -25,7 +34,11 @@ function Home() {
                 </header>
                 <p>Fundada em 2024, a AutoPrime surgiu com o objetivo de oferecer autopeças de qualidade, preços justos e entregas rápidas...</p>
                 <ul className="actions">
+<<<<<<< HEAD
+                  <li><Gestures><Link to="/localizacao" className="button big">Clique aqui</Link></Gestures></li>
+=======
                   <li><Link to="/localizacao" className="button big">Clique aqui</Link></li>
+>>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
                 </ul>
               </div>
               <span className="image object">
@@ -35,7 +48,10 @@ function Home() {
 
             <section>
               <header className="major">
+<<<<<<< HEAD
+=======
                 <h2>Erat lacinia</h2>
+>>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
               </header>
               <div className="features">
                 <article>
@@ -78,14 +94,22 @@ function Home() {
                   <Link to="/p20" className="image"><img src="images/amortecedor.jpeg" alt="" /></Link>
                   <h3>Amortecedor</h3>
                   <ul className="actions">
+<<<<<<< HEAD
+                    <li><Gestures><Link to="/p20" className="button">Clique Aqui</Link></Gestures></li>
+=======
                     <li><Link to="/p20" className="button">Clique Aqui</Link></li>
+>>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
                   </ul>
                 </article>
                 <article>
                   <Link to="/p1" className="image"><img src="images/bico_injetor.jpg" alt="" /></Link>
                   <h3>Bico Injetor</h3>
                   <ul className="actions">
+<<<<<<< HEAD
+                    <li><Gestures><Link to="/p1" className="button">Clique Aqui</Link></Gestures></li>
+=======
                     <li><Link to="/p1" className="button">Clique Aqui</Link></li>
+>>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
                   </ul>
                 </article>
               </div>
@@ -100,6 +124,17 @@ function Home() {
                 <h2>Menu</h2>
               </header>
               <ul>
+<<<<<<< HEAD
+                <li><Gestures><Link to="/">Tela Inicial</Link></Gestures></li>
+                <li><Gestures><Link to="/catalogo">Catálogo</Link></Gestures></li>
+                <li><Gestures><Link to="/localizacao">Localização</Link></Gestures></li>
+                
+                
+                
+                
+                <li><Gestures><Link to="/pagamento">Formas de Pagamento</Link></Gestures></li>
+                
+=======
                 <li><Link to="/">Tela Inicial</Link></li>
                 <li><Link to="/catalogo">Catálogo</Link></li>
                 <li><Link to="/localizacao">Localização</Link></li>
@@ -109,6 +144,7 @@ function Home() {
                 <li><Link to="/instrucoes">Instruções</Link></li>
                 <li><Link to="/pagamento">Formas de Pagamento</Link></li>
                 <li><Link to="/fale">Fale Comigo</Link></li>
+>>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
               </ul>
             </nav>
 
@@ -128,7 +164,11 @@ function Home() {
                 </article>
               </div>
               <ul className="actions">
+<<<<<<< HEAD
+                <li><Gestures><Link to="/catalogo" className="button">More</Link></Gestures></li>
+=======
                 <li><Link to="/catalogo" className="button">More</Link></li>
+>>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
               </ul>
             </section>
 
