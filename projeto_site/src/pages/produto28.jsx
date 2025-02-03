@@ -20,12 +20,13 @@ function Produto28() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>SIRENE DE RÉ</h1>
             </header>
 
             <span className="image main"><img src="images/produto28.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>A Sirene de Ré foi desenvolvida para alertar as pessoas no caminho de um veículo que está se movimentando para trás, evitando possíveis acidentes.
+            </p>
+            <h2>R$ 22,28</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

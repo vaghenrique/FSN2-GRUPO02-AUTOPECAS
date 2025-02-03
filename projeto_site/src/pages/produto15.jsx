@@ -20,12 +20,13 @@ function Produto15() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>HORIMETRO</h1>
             </header>
 
             <span className="image main"><img src="images/produto15.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>O horímetro é um equipamento que indica há quanto tempo o motor de um veículo ou máquina está em funcionamento, desde a sua saída da fábrica ou concessionária. Diferentemente do hodômetro, que mede a distância percorrida, o horímetro registra a quantidade total de horas trabalhadas pelo motor.
+            </p>
+            <h2>R$ 148,23</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

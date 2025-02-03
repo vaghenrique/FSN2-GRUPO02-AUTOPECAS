@@ -20,12 +20,13 @@ function Produto14() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>HODOMETRO</h1>
             </header>
 
             <span className="image main"><img src="images/produto14.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>Esse componente está no painel para registar quantos quilômetros o carro percorreu no total. O equipamento é usado como referência para medir distâncias.
+            </p>
+            <h2>R$ 148,23</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

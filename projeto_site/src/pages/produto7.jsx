@@ -20,12 +20,13 @@ function Produto7() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>CILINDRO AUXILIAR</h1>
             </header>
 
             <span className="image main"><img src="images/produto7.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>O cilindro auxiliar da embreagem é uma união de cilindro secundário e rolamento da embreagem. Ele contém um Pistão ligado ao rolamento. Quando o pedal da embreagem é acionado, o Pistão se move para a frente, e o rolamento da embreagem é deslocado axialmente contra a mola de diafragma, interrompendo o atrito entre disco da embreagem e volante do motor. Quando o pedal da embreagem é solto, a mola de diafragma coloca o Pistão na sua Posição inicial, restaurando o contato de atrito.
+            </p>
+            <h2>R$ 125,30</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

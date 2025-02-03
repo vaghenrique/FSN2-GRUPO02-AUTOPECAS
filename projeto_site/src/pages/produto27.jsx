@@ -20,12 +20,13 @@ function Produto27() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>SAPATA LONA FREIO</h1>
             </header>
 
             <span className="image main"><img src="images/produto27.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>As sapatas de freio são reguladas periodicamente, já que elas são as responsáveis ​​pelo sistema de frenagem, onde acionada, é pressionado o tambor de freio e gerando o atrito, gere a força necessária para parar.
+            </p>
+            <h2>R$ 165,23</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

@@ -20,11 +20,11 @@ function Produto22() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>PIVÔ DE SUSPENSÃO</h1>
             </header>
 
             <span className="image main"><img src="images/produto22.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
+            <p>O pivô de suspensão, também conhecido como junta esférica, é um componente responsável por conectar a suspensão ao braço de controle do veículo, permitindo que a suspensão se mova suavemente em várias direções.</p>
             <h2>R$ 199,90</h2>
             <button className="button primary">Comprar</button>
 

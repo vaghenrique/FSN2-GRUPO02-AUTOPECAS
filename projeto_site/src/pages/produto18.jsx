@@ -20,12 +20,12 @@ function Produto18() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>JUNTA SUSPENÇÃO</h1>
             </header>
 
             <span className="image main"><img src="images/produto18.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>Este é um dispositivo que as pessoas adicionam ao seu sistema de suspensão. Ele serve como uma almofada adicional ou amortecedor. Isso ajudará a evitar que as diferentes partes metálicas da suspensão entrem em contato umas com as outras.</p>
+            <h2>R$ 32,20</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

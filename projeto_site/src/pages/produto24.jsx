@@ -24,8 +24,9 @@ function Produto24() {
             </header>
 
             <span className="image main"><img src="images/produto24.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>O regulador de voltagem automotiva, também chamado de regulador de tensão, é um dispositivo que controla a voltagem que sai do alternador do carro. Ele é responsável por manter a voltagem do circuito elétrico do veículo segura, evitando sobrecargas e falhas elétricas. 
+            </p>
+            <h2>R$ 215,56</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

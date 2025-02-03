@@ -20,12 +20,13 @@ function Produto20() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>CUBOS DE RODA</h1>
             </header>
 
             <span className="image main"><img src="images/produto20.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>Os cubos de roda são suportes para o disco de freio. A principal função do cubo de roda é transmitir o torque das juntas homocinéticas para as rodas, e isso faz com que o seu veículo se movimente. Além disso, os cubos dão suporte ao disco de freio e ao tambor de freio. Neles são fixados os parafusos de roda e o rolamento de roda.
+            </p>
+            <h2>R$ 129,10</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

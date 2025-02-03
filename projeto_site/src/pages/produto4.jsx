@@ -20,12 +20,12 @@ function Produto4() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>BICO INJETOR</h1>
             </header>
 
             <span className="image main"><img src="images/produto4.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>Os bicos injetores são componentes de extrema precisão, responsáveis por pulverizar finamente o Combustível na câmara de combustão do motor. Quanto melhor for a pulverização, maior será o rendimento do motor. Em consequência, se obtém mais economia de Combustível com menor emissão de gases poluentes.</p>
+            <h2>R$ 49,94</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

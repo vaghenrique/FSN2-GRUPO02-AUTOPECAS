@@ -21,12 +21,12 @@ function Produto1() {
           <section>
             
             <header className="main">
-              <h1>Abraçadeira</h1>
+              <h1>ABRAÇADEIRA</h1>
             </header>
 
             <span className="image main"><img src="images/produto1.png" alt="Produto" className="produto-img" /></span>
             <p>Pequeno dispositivo de metal usado para fixar, apertar ou sustentar materiais.</p>
-            <h2>R$ 199,90</h2>
+            <h2>R$ 20,31</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

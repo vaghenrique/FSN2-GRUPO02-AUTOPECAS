@@ -20,12 +20,13 @@ function Produto12() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>ESTATOR</h1>
             </header>
 
             <span className="image main"><img src="images/produto12.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>O Estator é um componente essencial do alternador, responsável pela recarga da bateria enquanto o motor estiver ligado. Ele cria um campo eletromagnético e gera a corrente que será utilizada para abastecer a bateria.
+            </p>
+            <h2>R$ 203,20</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

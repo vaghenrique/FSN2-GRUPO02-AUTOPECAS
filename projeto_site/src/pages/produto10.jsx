@@ -20,12 +20,13 @@ function Produto10() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>COXIM AMORTECEDOR</h1>
             </header>
 
             <span className="image main"><img src="images/produto10.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>O Coxim Amortecedor Dianteiro Newparts NPX4806SB é essencial para a manutenção da suspensão do seu veículo.
+</p>
+            <h2>R$ 39,80</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

@@ -20,12 +20,13 @@ function Produto16() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>ESCOVAS</h1>
             </header>
 
             <span className="image main"><img src="images/produto16.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>As escovas alimentam os anéis com a corrente proveniente da bateria, o item também protege a bateria contra uma possível descarga, impedindo a passagem da sua corrente para o alternador. 
+            </p>
+            <h2>R$ 7,10</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

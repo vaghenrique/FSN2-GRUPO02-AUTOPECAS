@@ -20,12 +20,13 @@ function Produto30() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>VELA IGNIÇÃO</h1>
             </header>
 
             <span className="image main"><img src="images/produto30.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>A Vela de Ignição. É quem fornece a centelha, também chamada de faísca elétrica, que é responsável por dar a partida no motor do seu veículo.
+            </p>
+            <h2>R$ 11,39</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

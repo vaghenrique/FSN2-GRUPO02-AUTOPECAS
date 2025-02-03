@@ -20,12 +20,12 @@ function Produto5() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>BOMBA LAVADORA</h1>
             </header>
 
             <span className="image main"><img src="images/produto5.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>Possui a função de, com o limpador, realizar a limpeza dos vidros frontais e/ou traseiros. O seu funcionamento consiste em bombear a água do reservatório para o para-brisa por meio de tubulações, mediante o acionamento do condutor.</p>
+            <h2>R$ 24,89</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

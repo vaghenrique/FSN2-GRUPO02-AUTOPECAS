@@ -20,12 +20,13 @@ function Produto17() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1> JUNTA HOMOCINEICA</h1>
             </header>
 
             <span className="image main"><img src="images/produto17.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>As Juntas Homocinéticas Newparts fazem parte do semieixo, elas conectam o cubo da roda ao semieixo da transmissão, tem a principal função de transmitir o movimento do motor para as rodas.
+            </p>
+            <h2>R$ 107,330</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

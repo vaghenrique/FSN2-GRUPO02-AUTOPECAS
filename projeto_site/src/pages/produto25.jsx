@@ -20,12 +20,13 @@ function Produto25() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>RETENTOR TRAMULADOR</h1>
             </header>
 
             <span className="image main"><img src="images/produto25.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>Os retentores têm a função principal de reter óleos, graxas e outros tipos de Fluídos, que devem ser contidos no interior de um veículo, evitando também a entrada de impurezas do meio externo como, por exemplo: terra, areia, poeira e etc.
+            </p>
+            <h2>R$ 44,56</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

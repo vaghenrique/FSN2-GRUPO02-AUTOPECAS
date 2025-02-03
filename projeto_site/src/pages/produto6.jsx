@@ -20,12 +20,13 @@ function Produto6() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>BUCHA</h1>
             </header>
 
             <span className="image main"><img src="images/produto6.png" alt="Produto" className="produto-img"/></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>A bucha da bandeja é um componente que integra o sistema de suspensão do veículo, localizada na bandeja de suspensão, que conecta a roda ao chassi do carro.
+            .</p>
+            <h2>R$ 12,90</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

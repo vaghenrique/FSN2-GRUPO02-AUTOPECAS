@@ -20,12 +20,13 @@ function Produto9() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>CINTA AIRBAG</h1>
             </header>
 
             <span className="image main"><img src="images/produto9.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>A cinta de airbag é projetada pra garantir a segurança no seu carro em caso de batidas, minimizando os danos ao motorista e passageiros.
+            </p>
+            <h2>R$ 92,93</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

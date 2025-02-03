@@ -20,12 +20,13 @@ function Produto29() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>TERMINAL DIREÇÃO</h1>
             </header>
 
             <span className="image main"><img src="images/produto29.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>O terminal de direção faz parte do sistema de direção de um veículo. Em conjunto com a barra axial e a caixa de direção, ele transmite o movimento do volante para as rodas, permitindo que o motorista controle a direção do carro.
+            </p>
+            <h2>R$ 44,90</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

@@ -20,12 +20,13 @@ function Produto8() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>CILINDRO MESTRE</h1>
             </header>
 
             <span className="image main"><img src="images/produto8.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>O cilindro mestre é um dispositivo de controle que converte a pressão não hidráulica (geralmente do pé do motorista) em pressão hidráulica. Este dispositivo controla os cilindros escravos localizados na outra extremidade do sistema hidráulico.
+            </p>
+            <h2>R$ 217,90</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

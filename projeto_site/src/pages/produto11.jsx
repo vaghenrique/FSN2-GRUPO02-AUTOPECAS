@@ -20,12 +20,13 @@ function Produto11() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>COXIM MOTOR</h1>
             </header>
 
             <span className="image main"><img src="images/produto11.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>O coxim do motor é uma peça que absorve as vibrações do motor, fixando o câmbio, motor e amortecedor no lugar. Também é conhecido como calço ou suporte do motor. 
+            </p>
+            <h2>R$ 47,40</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

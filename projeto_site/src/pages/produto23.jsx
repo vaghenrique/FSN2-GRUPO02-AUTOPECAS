@@ -20,12 +20,13 @@ function Produto23() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>PIVÔ LIMPADOR</h1>
             </header>
 
             <span className="image main"><img src="images/produto23.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>O pivô do limpador é uma peça essencial no sistema de limpeza de para-brisas de um veículo. Sua principal função é permitir que as palhetas dos limpadores de para-brisa se movam suavemente de um lado para o outro, removendo água, sujeira, detritos e outros elementos que possam comprometer a visibilidade do motorista.
+            </p>
+            <h2>R$ 89,90</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

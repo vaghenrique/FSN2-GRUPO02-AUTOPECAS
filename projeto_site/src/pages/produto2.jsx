@@ -20,11 +20,12 @@ function Produto2() {
 
           <section>
             <header className="main">
-              <h1>Alternador</h1>
+              <h1>ALTERNADOR</h1>
             </header>
 
             <span className="image main"><img src="images/produto2.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
+            <p>O alternador automotivo é um componente do sistema de carga do veículo que transforma energia mecânica em energia elétrica. Ele é essencial para o funcionamento do carro, pois mantém os acessórios ligados e recarrega a bateria. 
+            .</p>
             <h2>R$ 199,90</h2>
             <button className="button primary">Comprar</button>
 

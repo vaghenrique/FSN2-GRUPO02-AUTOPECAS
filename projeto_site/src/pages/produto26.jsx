@@ -20,12 +20,13 @@ function Produto26() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>ROTOR ALTERNADOR</h1>
             </header>
 
             <span className="image main"><img src="images/produto26.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>A função do rotor alternador seg automotive é formar um campo magnético para produzir a corrente elétrica, e a quantidade dos fios da bobina aumenta de acordo com a capacidade do alternador de gerar energia.
+            </p>
+            <h2>R$ 462,56</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

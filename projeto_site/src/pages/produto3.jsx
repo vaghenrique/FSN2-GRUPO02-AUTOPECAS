@@ -20,12 +20,12 @@ function Produto3() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>BATERIA</h1>
             </header>
 
             <span className="image main"><img src="images/produto3.jpg" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>A bateria de um carro tem como principal função fornecer energia elétrica para o veículo. Ela desempenha um papel essencial no funcionamento do sistema elétrico e no arranque do motor.</p>
+            <h2>R$ 210,90</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

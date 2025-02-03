@@ -20,12 +20,13 @@ function Produto21() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>LIMPADOR DE PARA-BRISAS</h1>
             </header>
 
             <span className="image main"><img src="images/produto21.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>limpador de vidros, é um componente essencial de um veículo automotor. Ele é projetado para limpar a água, a sujeira, a poeira e outros detritos do para-brisa, garantindo uma visão clara para o motorista.
+            </p>
+            <h2>R$ 26,97</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

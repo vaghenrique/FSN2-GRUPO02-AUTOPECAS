@@ -20,12 +20,13 @@ function Produto19() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>ALTERNADOR</h1>
             </header>
 
             <span className="image main"><img src="images/produto19.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>O mancal do alternador ou carcaça é fixado de forma a compreender todos os componentes internos do motor de partida, com isso mantem os componentes internos protegidos de possiveis danos, além de manter todos os componeNtes em seus devidos lugares.
+            </p>
+            <h2>R$ 85,56</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />

@@ -20,12 +20,12 @@ function Produto13() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>FILTRO DE AR</h1>
             </header>
 
             <span className="image main"><img src="images/produto13.png" alt="Produto" className="produto-img" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <p>Peça responsável por filtrar o ar que entra no motor, evitando a entrada de sujeira e partículas que podem danificar o funcionamento do componente.</p>
+            <h2>R$ 58,90</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />
