@@ -23,7 +23,7 @@ function Produto4() {
               <h1>Produto Nome</h1>
             </header>
 
-            <span className="image main"><img src="images/produto4.png" alt="Produto" /></span>
+            <span className="image main"><img src="images/produto4.png" alt="Produto" className="produto-img" /></span>
             <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
             <h2>R$ 199,90</h2>
             <button className="button primary">Comprar</button>
@@ -32,16 +32,16 @@ function Produto4() {
             <h2>Produtos Relacionados</h2>
             <div className="mini-posts">
               <article>
-                <Link to="/p5" className="image"><img src="images/produto5.png" alt="Produto 2" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p5" className="image"><img src="images/produto5.png" alt="Produto 5" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p6" className="image"><img src="images/produto6.png" alt="Produto 3" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p6" className="image"><img src="images/produto6.png" alt="Produto 6" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p7" className="image"><img src="images/produto7.png" alt="Produto 4" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p7" className="image"><img src="images/produto7.png" alt="Produto 7" className="produto-relacionado" /></Link>
+                 
               </article>
             </div>
           </section>

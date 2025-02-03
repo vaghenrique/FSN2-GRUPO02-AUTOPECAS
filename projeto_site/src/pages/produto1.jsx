@@ -21,11 +21,11 @@ function Produto1() {
           <section>
             
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>Abraçadeira</h1>
             </header>
 
-            <span className="image main"><img src="images/produto1.png" alt="Produto" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
+            <span className="image main"><img src="images/produto1.png" alt="Produto" className="produto-img" /></span>
+            <p>Pequeno dispositivo de metal usado para fixar, apertar ou sustentar materiais.</p>
             <h2>R$ 199,90</h2>
             <button className="button primary">Comprar</button>
 
@@ -33,16 +33,16 @@ function Produto1() {
             <h2>Produtos Relacionados</h2>
             <div className="mini-posts">
               <article>
-                <Link to="/p2" className="image"><img src="images/produto2.png" alt="Produto 2" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p2" className="image"><img src="images/produto2.png" alt="Produto 2" className="Alternador" /></Link>
+
               </article>
               <article>
-                <Link to="/p3" className="image"><img src="images/produto3.png" alt="Produto 3" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p3" className="image"><img src="images/produto3.png" alt="Produto 3" className="Bateria de Carro" /></Link>
+
               </article>
               <article>
-                <Link to="/p4" className="image"><img src="images/produto4.png" alt="Produto 4" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p4" className="image"><img src="images/produto4.png" alt="Produto 4" className="Bico Injetor" /></Link>
+                
               </article>
             </div>
           </section>
