@@ -1,16 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Cart from "../components/Cart";
 import { useCart } from "../components/CartContext";
 import { BsFillCartPlusFill } from "react-icons/bs";
 import Gestures from '../components/Gestures';
-import "../components/Cart.css";
 
 
 function Catalogo() {
-  const { addItemToCart, cartItems } = useCart();
-  const [isCartVisible, setCartVisible] = useState(false);
-
+  const { addItemToCart } = useCart();
   //PARTE EM QUE ESTARÁ SENDO IMPLEMENTADO O ARRAY PARA RODAR A LISTAGEM DOS 30 PRODUTOS
   const produtos = [
     { id: 1, title: "Abraçadeira", price: "R$19,90", image: "images/produto1.png" },
@@ -47,7 +44,6 @@ function Catalogo() {
   
   const handleAddToCart = (produto) => {
     addItemToCart(produto);
-
   };
 
   return (
@@ -56,13 +52,14 @@ function Catalogo() {
         <div id="main">
           <div className="inner">
             <header id="header">
+
               <a className="logo"><strong>AutoPrime</strong></a>
               <ul className="icons">
                 <li>
                   {/*Aqui é o botão*/}
-                  <a href="#" className="icon solid fa-shopping-cart" onClick={() => setCartVisible(prev => !prev)}>
+                  <a href="#" className="icon solid fa-shopping-cart">
                     <span className="label">Carrinho</span>
-                    <span className="cart-status">{cartItems.length}</span>
+                    <span className="cart-status">1</span>
                   </a>
                 </li>
               </ul>              
@@ -96,12 +93,8 @@ function Catalogo() {
                 ))}
               </div>
             </section>
-
             {/*AQUI ESTÁ O CART*/}
-            <div className={`cart ${isCartVisible ? "visible" : "hidden"}`}>
-              <button className="close-cart" onClick={() => setCartVisible(false)}>Fechar</button>
-              <Cart/>
-            </div>
+            <Cart/>
           </div>
         </div>
 
@@ -115,6 +108,10 @@ function Catalogo() {
                 <li><Gestures><Link to="/">Tela Inicial</Link></Gestures></li>
                 <li><Gestures><Link to="/catalogo">Catálogo</Link></Gestures></li>
                 <li><Gestures><Link to="/localizacao">Localização</Link></Gestures></li>
+                
+                
+                
+                
                 <li><Gestures><Link to="/pagamento">Formas de Pagamento</Link></Gestures></li>
                 
               </ul>
