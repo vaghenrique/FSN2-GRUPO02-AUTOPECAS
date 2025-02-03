@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Gestures from '../components/Gestures';
 
+
 function Home() {
   return (
     <div className="is-preload">
@@ -12,10 +13,10 @@ function Home() {
               <a className="logo"><strong>AutoPrime</strong></a>
               <ul className="icons">
                 <li>
-                {/*<a href="#" className="icon solid fa-shopping-cart">
-                    /* <span className="label">Carrinho</span> 
-                    
-                  </a>*/}
+                  <a href="#" className="icon solid fa-shopping-cart">
+                    <span className="label">Carrinho</span>
+                    <span className="cart-status">1</span>
+                  </a>
                 </li>
               </ul>
             </header>

@@ -36,39 +36,3 @@
     transform: rotate(360deg);
   }
 }
-<<<<<<< HEAD
-
-/*Estilização carrinho*/
-.cart-status{
-  background-color: red;
-  width: 15px;
-  height: 15px;
-  border-radius: 15px;
-  position: absolute;
-  top: 1;
-  left: 1;
-  font-size: 10px;
-  color: white;
-  text-align: center;
-  margin-left: 2px;
-  font-weight: 700;
-  align-items: center;
-  justify-content: center;
-}
-
-/*Botões de adicionar*/
-.btn-add-card {
-  padding: 0 15px;
-  text-align: center;
-  align-items: center;
-  margin-left: 10px;
-  justify-content: center;
-}
-
-.space-buttons{
-  display: flex;
-  gap: 10px;
-}
-
-=======
->>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
