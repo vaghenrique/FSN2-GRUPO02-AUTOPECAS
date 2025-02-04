@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 function Produto1() {
   return (
     <div id="wrapper">
@@ -21,11 +22,11 @@ function Produto1() {
           <section>
             
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>ABRAÇADEIRA</h1>
             </header>
 
             <span className="image main"><img src="images/produto1.png" alt="Produto" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
+            <p>Pequeno dispositivo de metal usado para fixar, apertar ou sustentar materiais.</p>
             <h2>R$ 199,90</h2>
             <button className="button primary">Comprar</button>
 

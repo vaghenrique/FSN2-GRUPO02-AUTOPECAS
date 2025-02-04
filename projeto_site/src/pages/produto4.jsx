@@ -20,7 +20,7 @@ function Produto4() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>BICO INJETOR</h1>
             </header>
 
             <span className="image main"><img src="images/produto4.png" alt="Produto" /></span>
