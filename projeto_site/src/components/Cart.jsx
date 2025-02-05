@@ -14,7 +14,7 @@ function Cart() {
 
     return (
         <div className="cart">
-            <div className="cart-informations">
+             <div className="cart-informations">
             <h2>Carrinho</h2>
             {cartItems.length === 0 ? (
                 <p>O carrinho está vazio</p>
@@ -29,7 +29,7 @@ function Cart() {
                     />
                 ))
             )}
-            </div>
+             </div>
             <div className="cart-resume">
                 <h3>Total: R${total.toFixed(2)}</h3> 
             </div>

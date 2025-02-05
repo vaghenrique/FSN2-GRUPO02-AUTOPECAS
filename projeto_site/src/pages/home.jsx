@@ -12,7 +12,7 @@ function Home() {
               <a className="logo"><strong>AutoPrime</strong></a>
               <ul className="icons">
                 <li>
-                {/*<a href="#" className="icon solid fa-shopping-cart">
+                 {/*<a href="#" className="icon solid fa-shopping-cart">
                     /* <span className="label">Carrinho</span> 
                     
                   </a>*/}
@@ -31,7 +31,7 @@ function Home() {
                 </ul>
               </div>
               <span className="image object">
-                <img src="images/farois.jpeg" alt="" />
+                <img src="images/logo.png" alt="logo" />
               </span>
             </section>
 

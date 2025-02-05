@@ -23,25 +23,25 @@ function Produto4() {
               <h1>BICO INJETOR</h1>
             </header>
 
-            <span className="image main"><img src="images/produto4.png" alt="Produto" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <span className="image main"><img src="images/produto4.png" alt="Produto" className="produto-img" /></span>
+            <p>Os bicos injetores são componentes de extrema precisão, responsáveis por pulverizar finamente o Combustível na câmara de combustão do motor. Quanto melhor for a pulverização, maior será o rendimento do motor. Em consequência, se obtém mais economia de Combustível com menor emissão de gases poluentes.</p>
+            <h2>R$ 49,94</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />
             <h2>Produtos Relacionados</h2>
             <div className="mini-posts">
               <article>
-                <Link to="/p5" className="image"><img src="images/produto5.png" alt="Produto 2" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p5" className="image"><img src="images/produto5.png" alt="Produto 5" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p6" className="image"><img src="images/produto6.png" alt="Produto 3" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p6" className="image"><img src="images/produto6.png" alt="Produto 6" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p7" className="image"><img src="images/produto7.png" alt="Produto 4" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p7" className="image"><img src="images/produto7.png" alt="Produto 7" className="produto-relacionado" /></Link>
+                 
               </article>
             </div>
           </section>

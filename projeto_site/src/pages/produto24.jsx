@@ -23,25 +23,26 @@ function Produto24() {
               <h1>Produto Nome</h1>
             </header>
 
-            <span className="image main"><img src="images/produto1.png" alt="Produto" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <span className="image main"><img src="images/produto24.png" alt="Produto" className="produto-img" /></span>
+            <p>O regulador de voltagem automotiva, também chamado de regulador de tensão, é um dispositivo que controla a voltagem que sai do alternador do carro. Ele é responsável por manter a voltagem do circuito elétrico do veículo segura, evitando sobrecargas e falhas elétricas. 
+            </p>
+            <h2>R$ 215,56</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />
             <h2>Produtos Relacionados</h2>
             <div className="mini-posts">
               <article>
-                <Link to="/p25" className="image"><img src="images/produto2.png" alt="Produto 2" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p25" className="image"><img src="images/produto25.png" alt="Produto 25" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p26" className="image"><img src="images/produto3.png" alt="Produto 3" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p26" className="image"><img src="images/produto26.png" alt="Produto 26" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p27" className="image"><img src="images/produto4.png" alt="Produto 4" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p27" className="image"><img src="images/produto27.png" alt="Produto 27" className="produto-relacionado" /></Link>
+                 
               </article>
             </div>
           </section>

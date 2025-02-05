@@ -11,7 +11,7 @@ function Produto1() {
           <a className="logo"><strong>AutoPrime</strong></a>
             <ul className="icons">
               <li>
-                <a href="#" className="icon solid fa-shopping-cart" >
+                <a href="#" className="icon solid fa-shopping-cart">
                   <span className="label">Carrinho</span>
                   <span className="cart-status">1</span>
                 </a>
@@ -25,25 +25,25 @@ function Produto1() {
               <h1>ABRAÇADEIRA</h1>
             </header>
 
-            <span className="image main"><img src="images/produto1.png" alt="Produto" /></span>
+            <span className="image main"><img src="images/produto1.png" alt="Produto" className="produto-img" /></span>
             <p>Pequeno dispositivo de metal usado para fixar, apertar ou sustentar materiais.</p>
-            <h2>R$ 199,90</h2>
+            <h2>R$ 20,31</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />
             <h2>Produtos Relacionados</h2>
             <div className="mini-posts">
               <article>
-                <Link to="/p2" className="image"><img src="images/produto2.png" alt="Produto 2" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p2" className="image"><img src="images/produto2.png" alt="Produto 2" className="produto-relacionado" /></Link>
+
               </article>
               <article>
-                <Link to="/p3" className="image"><img src="images/produto3.png" alt="Produto 3" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p3" className="image"><img src="images/produto3.png" alt="Produto 3" className="produto-relacionado" /></Link>
+
               </article>
               <article>
-                <Link to="/p4" className="image"><img src="images/produto4.png" alt="Produto 4" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p4" className="image"><img src="images/produto4.png" alt="Produto 4" className="produto-relacionado" /></Link>
+                
               </article>
             </div>
           </section>

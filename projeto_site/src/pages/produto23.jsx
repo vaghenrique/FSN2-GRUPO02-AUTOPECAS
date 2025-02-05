@@ -20,28 +20,29 @@ function Produto23() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>PIVÔ LIMPADOR</h1>
             </header>
 
-            <span className="image main"><img src="images/produto1.png" alt="Produto" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <span className="image main"><img src="images/produto23.png" alt="Produto" className="produto-img" /></span>
+            <p>O pivô do limpador é uma peça essencial no sistema de limpeza de para-brisas de um veículo. Sua principal função é permitir que as palhetas dos limpadores de para-brisa se movam suavemente de um lado para o outro, removendo água, sujeira, detritos e outros elementos que possam comprometer a visibilidade do motorista.
+            </p>
+            <h2>R$ 89,90</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />
             <h2>Produtos Relacionados</h2>
             <div className="mini-posts">
               <article>
-                <Link to="/p24" className="image"><img src="images/produto2.png" alt="Produto 2" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p24" className="image"><img src="images/produto24.png" alt="Produto 24" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p25" className="image"><img src="images/produto3.png" alt="Produto 3" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p25" className="image"><img src="images/produto25.png" alt="Produto 25" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p26" className="image"><img src="images/produto4.png" alt="Produto 4" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p26" className="image"><img src="images/produto26.png" alt="Produto 26" className="produto-relacionado" /></Link>
+                 
               </article>
             </div>
           </section>

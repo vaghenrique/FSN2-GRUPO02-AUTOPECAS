@@ -4,11 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Catalogo from "./pages/Catalogo";
-<<<<<<< HEAD
-import Elements from "./pages/Elements";
-import Localizacao from "./pages/Localizacao";
-import Pagamento from "./pages/Pagamento";
-=======
 import Devolucao from "./pages/Devolucao";
 import Elements from "./pages/Elements";
 import Fale from "./pages/Fale";
@@ -16,7 +11,6 @@ import Instrucoes from "./pages/Instrucoes";
 import Localizacao from "./pages/Localizacao";
 import Pagamento from "./pages/Pagamento";
 import Parceiros from "./pages/Parceiros";
->>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
 import Produto1 from "./pages/Produto1";
 import Produto2 from "./pages/Produto2";
 import Produto3 from "./pages/Produto3";
@@ -54,11 +48,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/catalogo" element={<Catalogo />} />
-<<<<<<< HEAD
-        <Route path="/elements" element={<Elements />} />
-        <Route path="/localizacao" element={<Localizacao />} />
-        <Route path="/pagamento" element={<Pagamento />} />
-=======
         <Route path="/devolucao" element={<Devolucao />} />
         <Route path="/elements" element={<Elements />} />
         <Route path="/fale" element={<Fale />} />
@@ -66,7 +55,6 @@ function App() {
         <Route path="/localizacao" element={<Localizacao />} />
         <Route path="/pagamento" element={<Pagamento />} />
         <Route path="/parceiros" element={<Parceiros />} />
->>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
         <Route path="/p1" element={<Produto1 />} />
         <Route path="/p2" element={<Produto2 />} />
         <Route path="/p3" element={<Produto3 />} />

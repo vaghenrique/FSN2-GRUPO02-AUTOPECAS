@@ -20,28 +20,28 @@ function Produto18() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>JUNTA SUSPENÇÃO</h1>
             </header>
 
-            <span className="image main"><img src="images/produto1.png" alt="Produto" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <span className="image main"><img src="images/produto18.png" alt="Produto" className="produto-img" /></span>
+            <p>Este é um dispositivo que as pessoas adicionam ao seu sistema de suspensão. Ele serve como uma almofada adicional ou amortecedor. Isso ajudará a evitar que as diferentes partes metálicas da suspensão entrem em contato umas com as outras.</p>
+            <h2>R$ 32,20</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />
             <h2>Produtos Relacionados</h2>
             <div className="mini-posts">
               <article>
-                <Link to="/p19" className="image"><img src="images/produto2.png" alt="Produto 2" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p19" className="image"><img src="images/produto19.png" alt="Produto 19" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p20" className="image"><img src="images/produto3.png" alt="Produto 3" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p20" className="image"><img src="images/produto20.png" alt="Produto 20" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p21" className="image"><img src="images/produto4.png" alt="Produto 4" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p21" className="image"><img src="images/produto21.png" alt="Produto 21" className="produto-relacionado" /></Link>
+                 
               </article>
             </div>
           </section>

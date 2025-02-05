@@ -23,25 +23,25 @@ function Produto3() {
               <h1>BATERIA</h1>
             </header>
 
-            <span className="image main"><img src="images/produto3.jpg" alt="Produto" /></span>
+            <span className="image main"><img src="images/produto3.png" alt="Produto" className="produto-img" /></span>
             <p>A bateria de um carro tem como principal função fornecer energia elétrica para o veículo. Ela desempenha um papel essencial no funcionamento do sistema elétrico e no arranque do motor.</p>
-            <h2>R$ 199,90</h2>
+            <h2>R$ 210,90</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />
             <h2>Produtos Relacionados</h2>
             <div className="mini-posts">
               <article>
-                <Link to="/p4" className="image"><img src="images/produto4.png" alt="Produto 2" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p4" className="image"><img src="images/produto4.png" alt="Produto 4" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p5" className="image"><img src="images/produto5.png" alt="Produto 3" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p5" className="image"><img src="images/produto5.png" alt="Produto 5" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p6" className="image"><img src="images/produto6.png" alt="Produto 4" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p6" className="image"><img src="images/produto6.png" alt="Produto 6" className="produto-relacionado" /></Link>
+                 
               </article>
             </div>
           </section>

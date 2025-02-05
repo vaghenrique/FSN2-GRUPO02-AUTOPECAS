@@ -3,21 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-<<<<<<< HEAD
-import { CartProvider } from "../src/components/CartContext";
-=======
->>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-<<<<<<< HEAD
-     <CartProvider> {/* Certifique-se de que está englobando toda a aplicação */}
-      <App />
-    </CartProvider>
-=======
     <App />
->>>>>>> a19ee82dabcdfdc9cae8f4b61fd9dea2a20bf64e
   </React.StrictMode>
 );
 

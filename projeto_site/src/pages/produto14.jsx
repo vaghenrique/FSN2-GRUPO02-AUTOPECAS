@@ -20,28 +20,29 @@ function Produto14() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>HODOMETRO</h1>
             </header>
 
-            <span className="image main"><img src="images/produto1.png" alt="Produto" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <span className="image main"><img src="images/produto14.png" alt="Produto" className="produto-img" /></span>
+            <p>Esse componente está no painel para registar quantos quilômetros o carro percorreu no total. O equipamento é usado como referência para medir distâncias.
+            </p>
+            <h2>R$ 148,23</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />
             <h2>Produtos Relacionados</h2>
             <div className="mini-posts">
               <article>
-                <Link to="/p15" className="image"><img src="images/produto2.png" alt="Produto 2" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p15" className="image"><img src="images/produto15.png" alt="Produto 15" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p16" className="image"><img src="images/produto3.png" alt="Produto 3" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p16" className="image"><img src="images/produto16.png" alt="Produto 16" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p17" className="image"><img src="images/produto4.png" alt="Produto 4" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p17" className="image"><img src="images/produto17.png" alt="Produto 17" className="produto-relacionado" /></Link>
+                 
               </article>
             </div>
           </section>

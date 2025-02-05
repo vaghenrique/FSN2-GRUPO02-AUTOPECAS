@@ -20,28 +20,29 @@ function Produto11() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>COXIM MOTOR</h1>
             </header>
 
-            <span className="image main"><img src="images/produto1.png" alt="Produto" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <span className="image main"><img src="images/produto11.png" alt="Produto" className="produto-img" /></span>
+            <p>O coxim do motor é uma peça que absorve as vibrações do motor, fixando o câmbio, motor e amortecedor no lugar. Também é conhecido como calço ou suporte do motor. 
+            </p>
+            <h2>R$ 47,40</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />
             <h2>Produtos Relacionados</h2>
             <div className="mini-posts">
               <article>
-                <Link to="/p12" className="image"><img src="images/produto2.png" alt="Produto 2" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p12" className="image"><img src="images/produto12.png" alt="Produto 12" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p13" className="image"><img src="images/produto3.png" alt="Produto 3" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p13" className="image"><img src="images/produto13.png" alt="Produto 13" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p14" className="image"><img src="images/produto4.png" alt="Produto 4" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p14" className="image"><img src="images/produto14.png" alt="Produto 14" className="produto-relacionado" /></Link>
+                 
               </article>
             </div>
           </section>

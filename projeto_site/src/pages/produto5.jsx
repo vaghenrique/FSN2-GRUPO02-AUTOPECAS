@@ -20,28 +20,28 @@ function Produto5() {
 
           <section>
             <header className="main">
-              <h1>Produto Nome</h1>
+              <h1>BOMBA LAVADORA</h1>
             </header>
 
-            <span className="image main"><img src="images/produto5.png" alt="Produto" /></span>
-            <p>Descrição detalhada do produto. Explicação sobre os benefícios, características e diferenciais.</p>
-            <h2>R$ 199,90</h2>
+            <span className="image main"><img src="images/produto5.png" alt="Produto" className="produto-img" /></span>
+            <p>Possui a função de, com o limpador, realizar a limpeza dos vidros frontais e/ou traseiros. O seu funcionamento consiste em bombear a água do reservatório para o para-brisa por meio de tubulações, mediante o acionamento do condutor.</p>
+            <h2>R$ 24,89</h2>
             <button className="button primary">Comprar</button>
 
             <hr className="major" />
             <h2>Produtos Relacionados</h2>
             <div className="mini-posts">
               <article>
-                <Link to="/p6" className="image"><img src="images/produto6.png" alt="Produto 2" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p6" className="image"><img src="images/produto6.png" alt="Produto 6" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p7" className="image"><img src="images/produto7.png" alt="Produto 3" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p7" className="image"><img src="images/produto7.png" alt="Produto 7" className="produto-relacionado" /></Link>
+                 
               </article>
               <article>
-                <Link to="/p8" className="image"><img src="images/produto8.png" alt="Produto 4" /></Link>
-                <p>Breve descrição do produto relacionado.</p>
+                <Link to="/p8" className="image"><img src="images/produto8.png" alt="Produto 8" className="produto-relacionado" /></Link>
+                 
               </article>
             </div>
           </section>
