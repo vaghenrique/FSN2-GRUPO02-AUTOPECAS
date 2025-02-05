@@ -23,6 +23,7 @@ function Pagamento() {
                 </header>
 
                 <section>
+                  <h1>Nossas formas de pagamento</h1>
                   <p>Prezado cliente, na compra de qualquer um de nossos produtos, você tem o direito de escolher entre as diferentes formas de pagamento contidas nessa página.</p>
                   
                   <hr class="major" />

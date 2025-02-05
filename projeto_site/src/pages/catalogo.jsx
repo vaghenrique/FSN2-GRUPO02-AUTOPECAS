@@ -70,7 +70,7 @@ function Catalogo() {
             <section id="banner">
               <div className="content">
                 <header>
-                  <h2>Catálogo de Produtos</h2>
+                  <h1>Catálogo de Produtos</h1>
                 </header>
               </div>
             </section>
