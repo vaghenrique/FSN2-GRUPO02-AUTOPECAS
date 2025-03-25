@@ -10,6 +10,7 @@ function Home() {
           <div className="inner">
             <header id="header">
               <a className="logo"><strong>AutoPrime</strong></a>
+              <Link to="/cad_user" className="logo_cad">Cadastro | Login</Link>
               <ul className="icons">
                 <li>
                  {/*<a href="#" className="icon solid fa-shopping-cart">
@@ -115,7 +116,7 @@ function Home() {
 
             <section>
               <header className="major">
-                <h2>Produtos</h2>
+                <h2>Principais Produtos</h2>
               </header>
               <div className="mini-posts">
                 <article>
@@ -129,7 +130,9 @@ function Home() {
                 </article>
               </div>
               <ul className="actions">
-                <li><Gestures><Link to="/catalogo" className="button">More</Link></Gestures></li>
+                <div id="btn_sidebar">
+                <li><Gestures><Link to="/catalogo" className="button_side">More</Link></Gestures></li>
+                </div>
               </ul>
             </section>
 

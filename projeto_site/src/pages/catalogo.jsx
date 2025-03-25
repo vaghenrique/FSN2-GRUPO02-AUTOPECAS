@@ -120,7 +120,7 @@ function Catalogo() {
 
             <section>
               <header className="major">
-                <h2>Produtos</h2>
+                <h2>Principais Produtos</h2>
               </header>
               <div className="mini-posts">
                 <article>

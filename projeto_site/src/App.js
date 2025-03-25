@@ -7,6 +7,8 @@ import Catalogo from "./pages/Catalogo";
 import Elements from "./pages/Elements";
 import Localizacao from "./pages/Localizacao";
 import Pagamento from "./pages/Pagamento";
+import CadUser from "./pages/CadUser";
+import Login from "./pages/Login";
 import Produto1 from "./pages/Produto1";
 import Produto2 from "./pages/Produto2";
 import Produto3 from "./pages/Produto3";
@@ -47,6 +49,8 @@ function App() {
         <Route path="/elements" element={<Elements />} />
         <Route path="/localizacao" element={<Localizacao />} />
         <Route path="/pagamento" element={<Pagamento />} />
+        <Route path="/cad_user" element={<CadUser />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/p1" element={<Produto1 />} />
         <Route path="/p2" element={<Produto2 />} />
         <Route path="/p3" element={<Produto3 />} />
