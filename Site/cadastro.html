@@ -4,7 +4,7 @@
 		<title>Cadastro | Login</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="images/assets/css/main.css" />
 	</head>
 	<body class="cad_container">
 
@@ -28,19 +28,19 @@
 						<div class="cad_area">
 							<h2 id="h2_cad">Cadastre-se em nosso Site</h2>
 							<div class="form">
-								<form>
+								<form action="/cadastro" method="POST">
 									<div class="cad_dados">
-										<label>Endereço de Email:</label>
-										<input type="email" />
+									  <label>Endereço de Email:</label>
+									  <input type="email" name="email" required />
 									</div>
 									<div class="cad_dados">
-										<label>Crie uma senha de acesso:</label>
-										<input type="password" /><br/>
+									  <label>Crie uma senha de acesso:</label>
+									  <input type="password" name="senha" required /><br/>
 									</div>
 									<div id="teste">
-										<button type="submit" class="teste">Cadastrar</button>
+									  <button type="submit" class="teste">Cadastrar</button>
 									</div>
-								</form>
+								  </form>
 							</div>
 						</div>
 					</section>
