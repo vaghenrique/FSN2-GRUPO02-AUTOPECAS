@@ -2,8 +2,27 @@ import React from "react"
 import { Link } from "react-router-dom"
 import Gestures from "../components/Gestures"
 import '../pages/CadUser.css'
+import api from "../services/api"
+import { useRef } from "react"
 
 function AreaVendedor() {
+  const inputNome = useRef()
+  const inputPreco = useRef()
+  const inputUrl = useRef()
+
+  async function criarProduto(e) {
+    e.preventDefault()
+    await api.post("/area_vendedor", {
+      nome: inputNome.current.value,
+      valor: inputPreco.current.value,
+      imagemURL: inputUrl.current.value
+    })
+    alert("Produto cadastrado com sucesso!")
+    inputNome.current.value = ""
+    inputPreco.current.value = ""
+    inputUrl.current.value = ""
+  }
+
     return (
     <div className="cad_container">
       <div id="wrapper">
@@ -23,17 +42,16 @@ function AreaVendedor() {
                     <form>
                       <div class="cad_dados">
                       <label id="label">Nome do produto:</label>
-                      <input type="text"></input>
+                      <input type="text" ref={inputNome}></input>
                       </div>
-                      <div class="cad_dados">
-                      <label id="label">Preço(R$):</label>
-                      <input type="text"></input ><br/>
-                      <label id="label" className="custom-file">Adicione uma imagem do produto:</label>
-                      <input type="file"></input>
-
+                      <div>
+                      <label >Preço(R$):</label>
+                      <input type="text" ref={inputPreco}></input ><br/>
+                      <label id="label">URL da imagem do produto:</label>
+                      <input type="text" ref={inputUrl}></input>
                       </div>
                       <div id="teste">
-                      <button type="submit" class="teste">Cadastrar</button>
+                      <button type="submit" class="teste" onClick={criarProduto}>Cadastrar</button>
                       </div>
                     </form>
                   </div>

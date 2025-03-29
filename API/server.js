@@ -54,7 +54,7 @@ app.post('/area_vendedor', async (req,res) => {
         message: "Produto cadastrado com sucesso!",
         nome: req.body.nome,
         valor: req.body.valor,
-        imageURL: req.body.imageURL
+        imagemURL: req.body.imageURL
     })
 }) 
 

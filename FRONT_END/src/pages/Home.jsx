@@ -106,8 +106,8 @@ function Home() {
                 <li><Gestures><Link to="/catalogo">Catálogo</Link></Gestures></li>
                 <li><Gestures><Link to="/localizacao">Localização</Link></Gestures></li>
                 <li><Gestures><Link to="/pagamento">Formas de Pagamento</Link></Gestures></li>
-                <li><Gestures><Link to="/cad_vendedor">Área do Vendedor</Link></Gestures></li>
-                
+                <li><Gestures><Link to="/cad_vendedor">Cadastro do Vendedor</Link></Gestures></li>
+                <li><Gestures><Link to="/area_vendedor">Cadastro de Produto</Link> </Gestures></li>
               </ul>
             </nav>
 
